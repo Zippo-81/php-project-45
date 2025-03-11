@@ -3,14 +3,19 @@
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
-        }
+        },
+        "files": [
+            "src/Cli.php"
+        ]
     },
     "authors": [
         {
             "name": "Roman"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.4"
+    },
     "bin": [
         "bin/brain-games"
     ],
