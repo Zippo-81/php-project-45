@@ -20,5 +20,8 @@
         "bin/brain-games"
     ],
     "description": "Brain games project",
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
 }
